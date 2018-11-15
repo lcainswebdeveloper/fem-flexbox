@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CSS Attribute Selectors</title>
+    <style>
+        .row{
+            position: relative;
+        }
+        .row:after{
+            content: "";
+            clear: both;
+            display: block;
+        }
+        [class*="col-"]{
+            background:red;
+            float:left;
+            margin-left:2%;
+            margin-right:2%;
+        }
+        .col-sm-6{
+            width:46%;
+        }
+        [href*=".jpg"]{
+            background:green;
+            color:white;
+        }
+        [href*=".pdf"]{
+            background:blue;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-sm-6">COL 1</div>
+        <div class="col-sm-6">COL 2</div>
+    </div>
+    <h4>Cleared by float</h4>
+    <a href="linkto.pdf">To PDF</a>
+    <a href="linkto.pdf">To PDF</a>
+    <a href="linkto.jpg">To JPG</a>
+    <a href="linkto.jpg">To JPG</a>
+    <a href="linkto.pdf">To PDF</a>
+</body>
+</html>

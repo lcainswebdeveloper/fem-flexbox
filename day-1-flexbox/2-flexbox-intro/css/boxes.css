@@ -1,0 +1,38 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+    border: 5px dotted red;
+    display: flex;
+    margin-bottom: 3em;
+}
+ul.flex-collumn{
+    flex-direction: column;
+}
+.collumn-reverse{
+    flex-direction: column-reverse;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+li { 
+	border: 5px solid #999;
+	margin: 0.5em;
+	padding: 0.5em;
+}
+
+
+
+
+
+
+

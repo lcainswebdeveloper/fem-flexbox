@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flexbox</title>
+	<link href="css/boxes.css" rel="stylesheet">
+</head>
+<body> 
+    <h4>Standard</h4>
+    <pre>
+ul{
+    display: flex;
+}
+    </pre>
+	<ul>
+		<li class="flex1">1 Lorem ipsum dolor sit amet.</li>
+		<li class="flex1">2 Illum facere saepe nam praesentium.</li>
+		<li class="flex2">3 Vero quia possimus unde sint!</li>
+		<li class="flex1">4 Cupiditate, ab molestias aliquam cum.</li>
+		<li class="flex2">5 Recusandae inventore distinctio reiciendis id.</li>
+		<li class="flex1">6 Laboriosam iure saepe distinctio, sunt.</li>
+    </ul>
+    <h4>Standard using flex wrap. Items will be as wide as needed and wrap to new line when runs out</h4>
+<pre>
+.flex-wrap{
+    flex-wrap: wrap;
+}
+We can also use flex-flow as a shorthand for direction and wrap:
+flex-flow: row wrap;
+</pre>
+    <ul class="flex-wrap">
+        <li class="flex1">1 Lorem ipsum dolor sit amet.</li>
+        <li class="flex1">2 Illum facere saepe nam praesentium.</li>
+        <li class="flex2">3 Vero quia possimus unde sint!</li>
+        <li class="flex1">4 Cupiditate, ab molestias aliquam cum.</li>
+        <li class="flex2">5 Recusandae inventore distinctio reiciendis id.</li>
+        <li class="flex1">6 Laboriosam iure saepe distinctio, sunt.</li>
+    </ul>
+
+    <h4>Standard using flex wrap. Items will be as wide as needed and wrap to new line when runs out</h4>
+    <pre>
+.flex-wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+    </pre>
+    <ul class="flex-wrap-reverse">
+        <li class="flex1">1 Lorem ipsum dolor sit amet.</li>
+        <li class="flex1">2 Illum facere saepe nam praesentium.</li>
+        <li class="flex2">3 Vero quia possimus unde sint!</li>
+        <li class="flex1">4 Cupiditate, ab molestias aliquam cum.</li>
+        <li class="flex2">5 Recusandae inventore distinctio reiciendis id.</li>
+        <li class="flex1">6 Laboriosam iure saepe distinctio, sunt.</li>
+    </ul>
+
+    <h4>Row Reverse</h4>
+    <pre>
+.row-reverse{
+    flex-direction: row-reverse;
+}
+    </pre>
+    <ul class="row-reverse">
+        <li class="flex1">1 Lorem ipsum dolor sit amet.</li>
+        <li class="flex1">2 Illum facere saepe nam praesentium.</li>
+        <li class="flex2">3 Vero quia possimus unde sint!</li>
+        <li class="flex1">4 Cupiditate, ab molestias aliquam cum.</li>
+        <li class="flex2">5 Recusandae inventore distinctio reiciendis id.</li>
+        <li class="flex1">6 Laboriosam iure saepe distinctio, sunt.</li>
+    </ul>
+    <h4>Flex Collumn</h4>
+    <pre>
+ul.flex-collumn{
+    flex-direction: column;
+}
+        </pre>
+    <ul class="flex-collumn">
+        <li class="flex1">1 Lorem ipsum dolor sit amet.</li>
+        <li class="flex1">2 Illum facere saepe nam praesentium.</li>
+        <li class="flex2">3 Vero quia possimus unde sint!</li>
+    </ul>
+    <h4>Collumn Reverse</h4>
+    <pre>
+.collumn-reverse{
+    flex-direction: column-reverse;
+}
+        </pre>
+    <ul class="collumn-reverse">
+        <li class="flex1">1 Lorem ipsum dolor sit amet.</li>
+        <li class="flex1">2 Illum facere saepe nam praesentium.</li>
+        <li class="flex2">3 Vero quia possimus unde sint!</li>
+    </ul>
+			
+</body>
+</html>
