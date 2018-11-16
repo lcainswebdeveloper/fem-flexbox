@@ -24,6 +24,38 @@ ul.flex-collumn{
 .flex-wrap-reverse {
     flex-wrap: wrap-reverse;
 }
+.flex-end{
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+.flex-center{
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.space-between{
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.space-around{
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.space-evenly {
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.alignment-box{
+    height:400px;
+}
+.align-items-start{
+    align-items:flex-start
+}
+.align-items-end {
+    align-items: flex-end
+}
+.align-items-center{
+    align-items: center;
+}
 li { 
 	border: 5px solid #999;
 	margin: 0.5em;
